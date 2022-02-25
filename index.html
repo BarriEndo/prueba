@@ -1,53 +1,19 @@
 <!DOCTYPE html>
-<html lang="es" dir="ltr">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
     <title></title>
   </head>
-  <body onclick="loadd()">
-    <audio loop autoplay id="PMR">
-  <source src="audio/2022-02-24-09-29-27.mp3" type="audio/mp3">
-</audio>
-<div class="principal" id="negroA">
-
-</div>
-<!-- <button type="button" name="button" onclick="para()">Para</button> -->
+  <body>
     <div class="ojos">
 
     </div>
     <div class="cartel">
       <!-- <img src="images/cartel22.png" alt=""> -->
-      <!-- <button type="button" name="button">Login with metamask</button> -->
     </div>
     <div class="fondo">
 
     </div>
-    <script type="text/javascript">
-      PMR.onload = function(){
-        PMR.play();
-      }
-      function loadd() {
-        window.onload=function(){
-              document.getElementById("PMR").play();
-            }
-
-        var contador = 0;
-        if (contador == 0) {
-            document.getElementById('PMR').play()
-            contador++;
-        }
-
-      }
-
-      function para() {
-        document.getElementById('PMR').pause();
-      }
-
-      negroA.onclick = function() {
-        negroA.style.display= "none";
-      }
-
-    </script>
   </body>
 </html>
